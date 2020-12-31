@@ -7,7 +7,7 @@ import './mynavbar.style.css'
 const MyNavbar = () => {
     return (
         <>
-            <Navbar fixed="top" collapseOnSelect expand="md" variant="light" className="animate-navbar nav-theme justify-content-between">
+            <Navbar fixed="top" collapseOnSelect expand="md" variant="dark" className="animate-navbar nav-theme justify-content-between">
                 <Navbar.Brand className="ml-4" href="#Home">
                     <img src={Logo} alt="My Portfolio logo" className="logo" />
                     {/* <p align="center" id="nav-title">BABLU KD</p> */}

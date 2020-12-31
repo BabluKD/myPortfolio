@@ -3,10 +3,8 @@
 }
 
 .nav-theme {
-    background-color: #d1c5b5;
+    background-color: #101018f8; /*#d1c5b5;*/
     font-size: 18px;
-    font-weight: 600;
-    color: cyan;
 }
 
 .animate-navbar {
