@@ -10,10 +10,11 @@ import Container from "react-bootstrap/Container";
 
 //pages
 import About from "./pages/about/about.component";
+import Skills from "./pages/skills/skills.component";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App" style={{ position: "relative"}}>
       <MyNavbar />
       <MyCarousel />
       <TitleMessage />
@@ -21,8 +22,8 @@ const App = () => {
         <Parallax
           blur={{ min: -30, max: 30 }}
           bgImage={require("./assets/img/parallex/background.jpg")}
-          bgImageAlt=""
-          strength={200}
+          bgImageAlt="parallex bg"
+          strength={-200}
         >
           <div>
             <Container className="container-box rounded">
@@ -33,6 +34,7 @@ const App = () => {
           </div>
         </Parallax>
       </div>
+      <Skills />
     </div>
   );
 }

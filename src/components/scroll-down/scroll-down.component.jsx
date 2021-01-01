@@ -16,11 +16,6 @@ const MyScroll = styled.div`
     cursor: pointer;
     transform: rotate(90deg);
   }
-  .clickDown {
-    &hover {
-      text-decoration: none;
-    }
-  }
 `;
 
 const ScrollDown = () => {
