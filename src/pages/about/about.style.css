@@ -1,6 +1,10 @@
-.about {
-    background-color: transparent;
+#about {
     font-size: 1.1em;
+    background: url('../../assets/img/parallex/bg2.jpg');
+    background-size: cover;
+}
+#about h1 {
+    color: #fff;
 }
 
 .profile {

@@ -14,27 +14,29 @@ import Skills from "./pages/skills/skills.component";
 
 const App = () => {
   return (
-    <div className="App" style={{ position: "relative"}}>
+    <div className="App" style={{ position: "relative" }}>
       <MyNavbar />
       <MyCarousel />
       <TitleMessage />
-      <div>
-        <Parallax
+      <>
+        {/* <Parallax
           blur={{ min: -30, max: 30 }}
-          bgImage={require("./assets/img/parallex/background.jpg")}
-          bgImageAlt="parallex bg"
+          bgImage={"./assets/img/parallex/background.webp"}
+          bgImageAlt="parallax bg"
           strength={-200}
-        >
+        > */}
           <div>
             <Container className="container-box rounded">
-              <Fade bottom duration={1000}>
+              <Fade bottom>
                 <About />
               </Fade>
             </Container>
           </div>
-        </Parallax>
-      </div>
-      <Skills />
+        {/* </Parallax> */}
+      </>
+      <Fade bottom>
+        <Skills />
+      </Fade>
     </div>
   );
 }
