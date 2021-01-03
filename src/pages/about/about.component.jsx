@@ -19,7 +19,7 @@ const About = () => {
                         </Row>
                     </Col>
                     <Col xs={12} md={6}>
-                        <Row className="align-items-start p-2 mr-2 my-details rounded">
+                        <Row className="align-items-start p-2 mr-lg-2 my-details rounded">
                             Hey there! I am <strong>&nbsp;Bablu Kumar</strong>
                             <br />
                             An enthusiastic and organized student of BIT Sindri, pursuing B.Tech
