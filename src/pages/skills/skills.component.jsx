@@ -14,11 +14,11 @@ const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
       <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
-      <CardDeck className="justify-content-around" style={{ marginRight: "15px" }}>
+      <CardDeck className="justify-content-around">
         <Row className="d-flex justify-content-around">
           {/* Frontend */}
           <Col md={4}>
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus m-4">
               <Card.Body>
                 {/* Frontend */}
                 <Card.Title className="text-center card-title">Frontend</Card.Title>
@@ -36,7 +36,7 @@ const Skills = () => {
             </Card>
 
             {/* Backend */}
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus  m-4">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Backend</Card.Title>
                 <hr />
@@ -56,7 +56,7 @@ const Skills = () => {
 
           <Col md={4}>
             {/* Programming Languages */}
-          <Card className="focus mt-2 mb-2">
+          <Card className="focus  m-4">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
                 <hr />
@@ -73,7 +73,7 @@ const Skills = () => {
             </Card>
             {/* Database */}
 
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus m-4">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Database</Card.Title>
                 <hr />
@@ -90,7 +90,7 @@ const Skills = () => {
             </Card>
             {/* Version Control */}
 
-            <Card className="focus mt-2 mb-2">
+            <Card className="focus m-4">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Version Control</Card.Title>
                 <hr />
@@ -107,7 +107,7 @@ const Skills = () => {
 
           <Col md={4}>
             {/* New Age Skills */}
-            <Card className="focus mt-2 mb-2 ">
+            <Card className="focus m-4">
               <Card.Body>
                 <Card.Title className="text-center  card-title">New-Age Skills</Card.Title>
                 <hr />
@@ -124,7 +124,7 @@ const Skills = () => {
             </Card>
 
           {/* Hosting Platforms */}
-          <Card className="focus mt-2 mb-2 ">
+          <Card className="focus m-4">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
                 <hr />

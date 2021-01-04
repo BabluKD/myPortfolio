@@ -13,13 +13,13 @@ const About = () => {
             <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
             <Container>
                 <Row className="pt-3 pb-5 align-items-center">
-                    <Col xs={12} md={4}>
+                    <Col xs={12} md={6}>
                         <Row className="justify-content-center mb-2">
                             <Image className="profile justify-content-center" alt="Profile pic" src={Profile} thumbnail fluid />
                         </Row>
                     </Col>
-                    <Col xs={12} md={8}>
-                        <Row className="align-items-start p-3 ml-1 mr-1 mr-md-2 my-details rounded">
+                    <Col xs={12} md={6}>
+                        <Row className="align-items-start p-2 mr-lg-2 my-details rounded">
                             Hey there! I am <strong>&nbsp;Bablu Kumar</strong>
                             <br />
                             An enthusiastic and organized student of BIT Sindri, pursuing B.Tech
