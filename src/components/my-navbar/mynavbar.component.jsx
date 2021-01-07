@@ -8,7 +8,7 @@ const MyNavbar = () => {
     return (
         <>
             <Navbar fixed="top" collapseOnSelect expand="md" variant="dark" className="animate-navbar nav-theme justify-content-between">
-                <Navbar.Brand className="ml-2" href="#Home">
+                <Navbar.Brand className="ml-2" href="#home">
                     <img src={Logo} alt="Bablu KD" className="logo" />
                     {/* <p align="center" id="nav-title">BABLU KD</p> */}
                 </Navbar.Brand>

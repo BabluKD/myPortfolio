@@ -2,8 +2,10 @@ import React from 'react'
 import './App.css';
 //components
 import MyNavbar from "./components/my-navbar/mynavbar.component";
-import MyCarousel from "./components/my-carousel/mycarousel.component"
+import MyCarousel from "./components/my-carousel/mycarousel.component";
 import TitleMessage from "./components/title-message/title-message.component";
+import TimeLine from "./components/project-timeline/project-timeline.component";
+
 //import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
@@ -37,15 +39,19 @@ const App = () => {
           </div>
         {/* </Parallax> */}
       </>
+      <br />
       <Slide bottom duration={800}>
+        <hr />
         <Skills />
       </Slide>
 
       {/* Experience or Internships */}
       <Fade bottom duration={800}>
+        <hr />
         <Experience />
       </Fade>
 
+      <TimeLine />
     </div>
   );
 }

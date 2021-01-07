@@ -5,7 +5,7 @@ import slide2 from "../../assets/img/carousel/slide2.webp";
 import slide3 from "../../assets/img/carousel/slide3.webp";
 import ScrollDown from '../scroll-down/scroll-down.component'
 
-import './mycarousel.component.css'
+import './mycarousel.style.css'
 
 const MyCarousel = () => {
     return (

@@ -32,8 +32,8 @@ const Experience = () => {
                                         <div>
                                             <Card.Text className="text-center style">
                                                 <h4>
-                                                    <strong>Role :</strong> Full Stack Intern
-                                                </h4><br />
+                                                    <strong>Role :</strong> Full Stack Intern <hr/>
+                                                </h4>
                                                         <strong>Description :</strong>
                                                         <ul>
                                                             <li>
@@ -58,7 +58,7 @@ const Experience = () => {
                             <Tilt options={{ max: 10 }}>
                                 <Card>
                                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                                        <Card.Img variant="top" className="img-resize" src={L_DREAMYFLIES} alt="Accenture image" />
+                                        <Card.Img variant="top" className="img-resize" style={{ width: '100%'}} src={L_DREAMYFLIES} alt="Accenture image" />
                                     </Card.Header>
                                     <Card.Body className="d-flex justify-content-center flex-column">
                                         <div>
@@ -69,8 +69,8 @@ const Experience = () => {
                                         <div>
                                             <Card.Text className="text-center style">
                                                 <h4>
-                                                    <strong>Role :</strong> Full Stack Intern
-                                                </h4><br />
+                                                    <strong>Role :</strong> Full Stack Intern <hr/>
+                                                </h4>
                                                         <strong>Description :</strong>
                                                         <ul>
                                                             <li>
@@ -106,8 +106,8 @@ const Experience = () => {
                                         <div>
                                             <Card.Text className="text-center style">
                                                 <h4>
-                                                    <strong>Role :</strong> Machine Learning Trainee
-                                                </h4><br />
+                                                    <strong>Role :</strong> Machine Learning Trainee <hr/>
+                                                </h4>
                                                         <strong>Description :</strong>
                                                         <ul>
                                                             <li>
@@ -118,8 +118,6 @@ const Experience = () => {
                                                             </li>
                                                         </ul>
                                                         <strong>Technology :</strong><br /> HTML, CSS, JavaScript, Bootstrap and PHP, MySQL
-                                                <br />
-                                                        <strong>Technology :</strong> Full Stack Intern
                                                 <br />
                                                         <strong>Duration :</strong> June 2019 - Sept 2019
                                             </Card.Text>

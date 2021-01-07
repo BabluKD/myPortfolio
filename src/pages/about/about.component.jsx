@@ -28,9 +28,6 @@ const About = () => {
                             its mission and goals by being able to continuously learn and improve the
                             necessary skills and knowledge needed to help push both the company
                             and myself forward into success.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est itaque qui cum a, nulla voluptatum.
-                            Placeat, enim iste tenetur rerum deserunt, cupiditate dolor debitis temporibus voluptate officia
-                            quisquam doloribus soluta?
                         </Row>
                         <Row>
                             <Col className="d-flex justify-content-center flex-wrap">
