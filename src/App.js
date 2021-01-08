@@ -5,6 +5,8 @@ import MyNavbar from "./components/my-navbar/mynavbar.component";
 import MyCarousel from "./components/my-carousel/mycarousel.component";
 import TitleMessage from "./components/title-message/title-message.component";
 import TimeLine from "./components/project-timeline/project-timeline.component";
+import Footer from "./components/footer/footer.component";
+
 
 //import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
@@ -16,6 +18,7 @@ import Container from "react-bootstrap/Container";
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
 import Experience from "./pages/experience/experience.component";
+import Contact from "./pages/contact-form/contact-form.component";
 
 const App = () => {
   return (
@@ -30,13 +33,13 @@ const App = () => {
           bgImageAlt="parallax bg"
           strength={-200}
         > */}
-          <div>
-            <Container className="container-box rounded">
-              <Fade bottom duration={800}>
-                <About />
-              </Fade>
-            </Container>
-          </div>
+        <div>
+          <Container className="container-box rounded">
+            <Fade bottom duration={800}>
+              <About />
+            </Fade>
+          </Container>
+        </div>
         {/* </Parallax> */}
       </>
       <br />
@@ -51,7 +54,21 @@ const App = () => {
         <Experience />
       </Fade>
 
-      <TimeLine />
+      <div>
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
+        </Slide>
+      </div>
+
+        <Container className="container-box rounded">
+          <Fade bottom duration={500}>
+            <hr />
+            <Contact />
+          </Fade>
+        </Container>
+        
+        <Footer />
     </div>
   );
 }

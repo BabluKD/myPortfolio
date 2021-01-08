@@ -1,5 +1,4 @@
-.accordion-main {
-    cursor: pointer;
+.accordian-main {
     display: inline-block;
     -webkit-text-decoration: none;
     text-decoration: none;
@@ -9,6 +8,7 @@
     border-radius: 4px;
     padding: 10px;
     color: #fff;
+    cursor: pointer;
 }
 
 .list-style {
