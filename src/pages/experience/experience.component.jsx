@@ -15,9 +15,8 @@ const Experience = () => {
         <div id="experience">
             <h1 className="pt-3 text-center font-details-b pb-3">TRAINING & INTERNSHIPS</h1>
             <Jumbotron fluid className="jumbo-style">
-                <Row className="d-flex justify-content-around mr-4 ml-2">
+                <Row className="d-flex justify-content-around ml-2 mr-2">
                     <Col md={4} className="mb-4">
-                        <Container>
                             <Tilt options={{ max: 10 }}>
                                 <Card>
                                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
@@ -51,10 +50,9 @@ const Experience = () => {
                                     </Card.Body>
                                 </Card>
                             </Tilt>
-                        </Container>
                     </Col>
                     <Col md={4} className="mb-4">
-                        <Container>
+                        {/* <Container> */}
                             <Tilt options={{ max: 10 }}>
                                 <Card>
                                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
@@ -88,10 +86,10 @@ const Experience = () => {
                                     </Card.Body>
                                 </Card>
                             </Tilt>
-                        </Container>
+                        {/* </Container> */}
                     </Col>
                     <Col md={4} className="mb-4">
-                        <Container>
+                        {/* <Container> */}
                             <Tilt options={{ max: 10 }}>
                                 <Card>
                                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
@@ -125,7 +123,7 @@ const Experience = () => {
                                     </Card.Body>
                                 </Card>
                             </Tilt>
-                        </Container>
+                        {/* </Container> */}
                     </Col>
                 </Row>
             </Jumbotron>

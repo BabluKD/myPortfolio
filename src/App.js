@@ -11,7 +11,7 @@ import Footer from "./components/footer/footer.component";
 //import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
-import Container from "react-bootstrap/Container";
+//import Container from "react-bootstrap/Container";
 
 
 //pages
@@ -34,11 +34,9 @@ const App = () => {
           strength={-200}
         > */}
         <div>
-          <Container className="container-box rounded">
             <Fade bottom duration={800}>
               <About />
             </Fade>
-          </Container>
         </div>
         {/* </Parallax> */}
       </>
@@ -61,12 +59,10 @@ const App = () => {
         </Slide>
       </div>
 
-        <Container className="container-box rounded">
           <Fade bottom duration={500}>
             <hr />
             <Contact />
           </Fade>
-        </Container>
         
         <Footer />
     </div>
