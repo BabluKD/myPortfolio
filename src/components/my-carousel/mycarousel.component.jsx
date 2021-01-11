@@ -10,7 +10,7 @@ import './mycarousel.style.css'
 const MyCarousel = () => {
     return (
         <div id="home">
-            <Carousel controls={false} indicators interval={1500} pause="false" >
+            <Carousel controls={false} indicators={false} interval={1500} pause="false" >
                 <Carousel.Item>
                     <img
                         className="d-block w-100 custom-img"

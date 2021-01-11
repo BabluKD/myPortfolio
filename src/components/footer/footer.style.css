@@ -5,3 +5,9 @@
     border: 2px solid #101018f8;
     border-top-left-radius: 3px;
 }
+
+@media (max-width: 768px) {
+    .footer-style {
+        font-size : 1.2em;  
+    }
+}

@@ -9,7 +9,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
 // skills
-import L_REACT from "../../assets/img/skills/react.svg";
+//import L_REACT from "../../assets/img/skills/react.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_PHP from "../../assets/img/skills/php.svg";
 import L_MYSQL from "../../assets/img/skills/mysql.svg";
@@ -23,9 +23,9 @@ import L_SKL from "../../assets/img/skills/ml/sklearn.png";
 import Image from "react-bootstrap/Image";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_GIT from "../../assets/img/skills/github-api.svg";
+//import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
+//import L_DJANGO from "../../assets/img/skills/django.svg";
+//import L_GIT from "../../assets/img/skills/github-api.svg";
 
 import "./project-timeline.style.css";
 
@@ -175,10 +175,9 @@ const TimeLine = () => {
                                                 <hr />
                                                 <strong>Features:</strong>
                                                 <ul className="list-styles pt-1">
-                                                    <li>Applied Linear Regression, Decision Tree and Random Forest Reg. and chose The best one</li>
-                                                    <li>Admin dashboard consisting CRUD operation on members</li>
-                                                    <li>Super Admin to manage the admins and members</li>
-                                                    <li>Responsive Design for mobile devices</li>
+                                                    <li>Applied Linear Regression, Decision Tree and Random Forest Regression</li>
+                                                    <li>84% of accuracy was found in Random Forest which was best among all.</li>
+                                                    <li>This prediction helps people find the best restaurants in Bangalore.</li>
                                                 </ul>
                                                 <hr />
                                                 <strong>Tech used:</strong>
@@ -267,7 +266,7 @@ const TimeLine = () => {
                                                                 style={{width: '4em'}}
                                                             ></Image>
                                                             {" "}
-                                                            MATPLOTLIB
+                                                            MATPLOTLIB and more.
                                                         </span>
                                                     </li>
                                                 </ul>

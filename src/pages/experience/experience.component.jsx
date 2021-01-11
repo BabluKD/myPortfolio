@@ -3,7 +3,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Tilt from 'react-tilt'
-import Container from 'react-bootstrap/Container'
+//import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import L_JGI from "../../assets/img/experience/jgi.png"
 import L_DREAMYFLIES from "../../assets/img/experience/dreamyflies.webp"
@@ -36,15 +36,16 @@ const Experience = () => {
                                                         <strong>Description :</strong>
                                                         <ul>
                                                             <li>
-                                                                Developed 2 major websites in which I learnt to handle live web dev problems.
+                                                                Worked as the backend developer in a team of 5 in a fabric management website which 
+                                                                uses technologies to enhance the process.
                                                             </li>
                                                             <li>
-                                                                Learnt to deal with customer demands, professionalism and work-time management
+                                                                Developed an algorithm to which reduced the fabric wastage during cutting by 2%. 
                                                             </li>
                                                         </ul>
                                                         <strong>Technology :</strong><br /> HTML, CSS, JavaScript, Bootstrap and Django & Python
                                                 <br />
-                                                        <strong>Duration :</strong> June 2019 - Sept 2019
+                                                        <strong>Duration :</strong> April 2020 - May 2020
                                             </Card.Text>
                                         </div>
                                     </Card.Body>
@@ -72,15 +73,18 @@ const Experience = () => {
                                                         <strong>Description :</strong>
                                                         <ul>
                                                             <li>
-                                                                Developed 2 major websites in which I learnt to handle live web dev problems.
+                                                                Developed 2 major websites.
                                                             </li>
                                                             <li>
-                                                                Learnt to deal with customer demands, professionalism and work-time management
+                                                                First one was a full stack website responsible for conducting events related to school children.
+                                                            </li>
+                                                            <li>
+                                                                Second one was a frontend website related to notes-sharing.
                                                             </li>
                                                         </ul>
                                                         <strong>Technology :</strong><br /> HTML, CSS, JavaScript, Bootstrap and PHP, MySQL
                                                 <br />
-                                                        <strong>Duration :</strong> June 2019 - Sept 2019
+                                                        <strong>Duration :</strong> June 2019 - Aug 2019
                                             </Card.Text>
                                         </div>
                                     </Card.Body>
@@ -109,15 +113,15 @@ const Experience = () => {
                                                         <strong>Description :</strong>
                                                         <ul>
                                                             <li>
-                                                                Learned all the basics and advanced topics of Machine Learning and completed a major project
+                                                                Learned almost all topics of Machine Learning and completed a major project.
                                                             </li>
                                                             <li>
-                                                                Learnt different ML libraries like Numpy, Pamdas, Matplotlib, SKLearn
+                                                                Implemented ML libraries like Numpy, Pandas for Data Processing, Matplotlib, Seaborn for Data Visualization and SKLearn.  
                                                             </li>
                                                         </ul>
                                                         <strong>Technology :</strong><br /> HTML, CSS, JavaScript, Bootstrap and PHP, MySQL
                                                 <br />
-                                                        <strong>Duration :</strong> June 2019 - Sept 2019
+                                                        <strong>Duration :</strong> June 2019 - July 2019
                                             </Card.Text>
                                         </div>
                                     </Card.Body>
